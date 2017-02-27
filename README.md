@@ -13,9 +13,11 @@ Image pre-processing tool for preparing photos before object detection model tra
 	```
 - a train.txt file will be automatically created in the **resized** directory:
 	```
-	data/obj/img1.jpg
-	data/obj/img2.jpg
-	data/obj/img3.jpg
+	
+		data/obj/img1.jpg
+		data/obj/img2.jpg
+		data/obj/img3.jpg
+		
 	```
 This image + text file package can be used for training YOLO net model.
 
