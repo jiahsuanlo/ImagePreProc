@@ -4,6 +4,7 @@
 2. ctrl+shift+i to open source code
 3. run following codes in console
 
+<p>
 var cont=document.getElementsByTagName("body")[0];
 var imgs=document.getElementsByTagName("a");
 var i=0;var divv= document.createElement("div");
@@ -16,5 +17,6 @@ while(++i<imgs.length){
     }
  }
 cont.insertBefore(divv,cont.childNodes[0]);
+</p>
 
 4. copy the links and use download manager to get all images.
